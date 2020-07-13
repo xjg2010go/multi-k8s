@@ -14,9 +14,9 @@ spec:
     spec:
       containers:
         - name: worker
-          image: stephengrider/multi-worker
+          image: lucas4xin/multi-worker
           env:
-            - name: REDIS
+            - name: REDIS_HOST
               value: redis-cluster-ip-service
             - name: REDIS_PORT
               value: '6379'
