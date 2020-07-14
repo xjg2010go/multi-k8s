@@ -8,7 +8,8 @@ metadata:
     # UPDATE THIS LINE ABOVE
 spec:
   rules:
-    - http:
+    - host: helloworld.com
+      http:
         paths:
           - path: /?(.*)
             # UPDATE THIS LINE ABOVE
